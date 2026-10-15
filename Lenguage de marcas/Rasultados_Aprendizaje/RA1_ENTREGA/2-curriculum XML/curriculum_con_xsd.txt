@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum xmlns="https://lucasquilesrubio.es/curriculum"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://lucasquilesrubio.es/curriculum curriculum.xsd">
+	<datos_personales>
+		<nombre>Lucas</nombre>
+		<apellidos>Quiles Rubio</apellidos>
+		<emails>
+			<email_empresa>lucas.quiles.rubio@alu.ceacfp.es</email_empresa>
+			<email_personal>lucasquilesrubio@gmail.com</email_personal>
+			<email_personal_2>luquilru@gmail.com</email_personal_2>
+		</emails>
+	</datos_personales>
+	<experiencia_profesional>
+		<empresa>Hospital General Castelló</empresa>
+		<puesto>Mantenimiento del servicio de red del hospital y ayuda y asistencia</puesto>
+		<inicio>2024-03</inicio>
+		<final>2024-06</final>
+	</experiencia_profesional>
+	<formaciones>
+		<formacion>
+			<centro>SES Borriol y IES Vall d'Alba</centro>
+			<titulacion>Educacion secundaria obligatoria</titulacion>
+			<inicio>2018-09</inicio>
+			<final>2022-06</final>
+		</formacion>
+		<formacion_2>
+			<centro>IES Vall d'Alba</centro>
+			<titulacion>Grado Medio de Sistema microinformatico y redes</titulacion>
+			<inicio>2022-09</inicio>
+			<final>2024-06</final>
+		</formacion_2>
+		<formacion_3>
+			<centros>
+				<centro_1>SKILLS - Academia de ingles en Castellon</centro_1>
+				<centro_2>Native English Academy</centro_2>
+			</centros>
+			<titulacion>Titulo Nivel B2 Ingles en la EOI (escuela oficial de idiomas)</titulacion>
+			<inicio>2022-09</inicio>
+			<final>2024-06</final>
+		</formacion_3>
+	</formaciones>
+	<idiomas>Ingles, Valenciano, Castellano</idiomas>
+</curriculum>
+
+
+<!-- PLANTILLA XSD: curriculum.xsd -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://lucasquilesrubio.es/curriculum"
+           xmlns="https://lucasquilesrubio.es/curriculum"
+           elementFormDefault="qualified">
+
+	<xs:element name="curriculum">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="datos_personales">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nombre" type="xs:string"/>
+							<xs:element name="apellidos" type="xs:string"/>
+							<xs:element name="emails">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="email_empresa" type="xs:string"/>
+										<xs:element name="email_personal" type="xs:string"/>
+										<xs:element name="email_personal_2" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="experiencia_profesional">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="empresa" type="xs:string"/>
+							<xs:element name="puesto" type="xs:string"/>
+							<xs:element name="inicio" type="xs:string"/>
+							<xs:element name="final" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="formaciones">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="formacion">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="centro" type="xs:string"/>
+										<xs:element name="titulacion" type="xs:string"/>
+										<xs:element name="inicio" type="xs:string"/>
+										<xs:element name="final" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+
+							<xs:element name="formacion_2">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="centro" type="xs:string"/>
+										<xs:element name="titulacion" type="xs:string"/>
+										<xs:element name="inicio" type="xs:string"/>
+										<xs:element name="final" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+
+							<xs:element name="formacion_3">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="centros">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="centro_1" type="xs:string"/>
+													<xs:element name="centro_2" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="titulacion" type="xs:string"/>
+										<xs:element name="inicio" type="xs:string"/>
+										<xs:element name="final" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="idiomas" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

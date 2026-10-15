@@ -1,0 +1,43 @@
+a) Se han identificado las características generales de los lenguajes de marcas.
+
+Las he identificado porque he utilizado tanto Markdown, XML y Json para completar mi curriculum, por ejemplo en XML <nombre>, <apellidos>,<formacion>, etc.
+
+
+b) Se han reconocido las ventajas que proporcionan en el tratamiento de la información.
+
+Se han reconocido porque ahora entiendo la importancia de mantener un orden, guardando información de forma estructurada.
+
+
+c) Se han clasificado los lenguajes de marcas e identificado los más relevantes.
+
+En clase hemos trabajado principalmente con Markdown, JSON y XML.
+Entre esos 3, según he escuchado en clase el que mas utilizaremos será Json, después Markdown aunque no lo creamos se utiliza a diario en la vida de un informatico, y XML es un lenguaje básico que hay que aprender.
+
+d) Se han diferenciado sus ámbitos de aplicación.
+
+Markdown se utiliza para crear txt de una forma mas sencilla, JSON se utiliza para estructurar y intercambiar datos y XML es un lenguaje de programación que se basa en etiquetas.
+
+
+e) Se han reconocido la necesidad y los ámbitos específicos de aplicación de un lenguaje de marcas de propósito general.
+
+XMl por ejemplo se que es un lenguaje de propósito general, por ejemplo en mi curriculum lo he utilizado para organizar mis datos, experiencia, formación y idioamas
+
+
+f) Se han analizado las características propias de diferentes lenguajes de marcas.
+
+Las 3 tienen diferencias visibles, markdown es mas sencillo en sintaxis. Json organiza la información que le damos como objetos y claves de valor, y XML con etiquetas creamos una estructura organizada para guardar esa información.
+
+
+g) Se ha identificado la estructura de un documento y sus reglas sintácticas.
+
+Por ejemplo en XML, que es con el ultimo que hemos trabajado, la estructura se basa en etiquetas, por ejemplo en mi curiculum la etiqueta principal es <curriculum> y dentro de este creo otras etiquetas para ir clasificando información sobre mi como por ejemplo <datos_personales>, también es muy importante cerrarlas con </x> la barra delante de la palabra.
+
+
+h) Se ha contrastado la necesidad de crear documentos bien formados y la influencia en su procesamiento.
+
+La importancia de crear los documentos bien formados es muy grande porque como he dicho antes si por ejemplo no cierro una sola etiqueta puede no ser procesado correctamente.
+
+
+i) Se han identificado las ventajas que aportan los espacios de nombres.
+
+////

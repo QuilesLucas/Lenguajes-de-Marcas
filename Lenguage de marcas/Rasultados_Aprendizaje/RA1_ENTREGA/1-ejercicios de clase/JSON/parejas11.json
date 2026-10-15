@@ -1,0 +1,35 @@
+{
+	"datos_personales"{
+		"nombre":"Lucas",
+		"apellidos":"Quiles Rubio",
+		"email":{
+			"empresa":"lucas.quiles.rubio@alu.ceacfp.es"
+			"personal":"lucasquilesrubio@gmail.com"
+			"personal_2":"luquilru@gmail.com"
+			}
+		},
+		
+		"experiencia_profesional":[
+		{
+			"empresa":"Hospital General Castelló"
+			"puesto":"mantenimiento del servicio de red del hospital y ayuda y asistencia"
+			"inicio":"2024-03"
+			"final":"2024-06"
+		},
+		{
+			"empresa":"Hospital General Castelló"
+			"puesto":"mantenimiento del servicio de red del hospital y ayuda y asistencia"
+			"inicio":"2024-03"
+			"final":"2024-06"
+		},
+		{
+			"empresa":"Hospital General Castelló"
+			"puesto":"mantenimiento del servicio de red del hospital y ayuda y asistencia"
+			"inicio":"2024-03"
+			"final":"2024-06"
+		}
+	],
+		"formacion":{Educacion secundaria obligatoria, 1 y 2 de sistemas microinformaticos y redes},
+		"idiomas":"",
+		"hobbies":""
+}
